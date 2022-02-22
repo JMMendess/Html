@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(22, 167, 211);}
+header{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(23, 33, 48);}
+    
+header h1 {
+    font-size: 2.5em;
+    color: rgb(57, 132, 230);}
+     
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#0a3e5a, #142c18);
+    display: flex;
+    justify-content: center;
+
+    box-shadow: inset 0px 2px 4px rgb(red, green, blue);}
+main form {
+        margin-top: 5%;
+        width: 35%;
+        height: 75vh;
+        background-color: rgb(39, 39, 39);
+        box-shadow: 0px 2px 4px;
+        border-radius: 18px;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+main form .inputs-container{
+    margin-top: 10%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;}        
+main form .inputs-container input{
+    width: 90%;
+    height: 45px;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+
+    font-size: 16px;
+    color: rgb(153, 26, 26);
+
+    box-shadow: 0px 3px 4px rgba(red, green, blue, alpha);}
+main form .inputs-container input:focus{
+    box-shadow: inset 1px 4px 8px rgb(red, green, blue);}
+
+main form .password-container{
+    margin-top: 8%;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+main form .password-container i{
+    position: absolute;
+    right:0%;
+    top: 10%;
+    color: rgb(31, 29, 29);
+    cursor: pointer;}
+main form .password-container #eye  {
+    display: flex;}
+
+main form .password-infos{
+    width: 42%;
+    margin-top: 5%;
+
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;}
+
+main form .password-infos a{
+    transition: 0.2s ease-in-out;}
+
+main form .password-infos a:hover{
+    color: rgb(42, 42, 179);}
+
+main form button{
+    background-color: rgb(34, 99, 119);
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s    ease-in-out;}
+
+main form button:hover{
+    background: #7c8083;
+    color: aqua;}
+
+main form .links-containers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;}
+
+main form .links-containers span{
+    font-size: 0.8em;
+    font-weight: 600;}
+
+main form .links-containers aside{
+    margin-top: 5%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;}
+
+main form .links-containers aside i{
+    font-size:  1.6em;
+    background-color: rgb(10, 100, 153);
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 00.3s ease-in-out;
+    color: rgb(15, 19, 19);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+main form .links-containers aside .facebook{
+    color: #6d0f0f;}
+
+main form .links-containers aside .facebook :hover{
+    background-color: #c90808;
+    color: rgb(34, 107, 202);}
+main form .links-containers aside .youtube{
+        color: #441994;}
+    
+main form .links-containers aside .youtube :hover{
+        background-color: #c90808;
+        color: rgb(34, 97, 97);}
+
+main form footer{
+    width: 100%;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+main form footer hr{
+    width: 100%;
+    height: 3px;
+    background-color: aliceblue;}
+main form footer span{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 5%;}
+
+main form footer a{
+    font-weight: 600;
+    transition: 0.2s ease-in-out;}
+
+main form footer a :hover{
+    color: hotpink;
+}
+main form footer{
+    width: 100%;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main form footer hr{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+main form footer span{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 5%;
+}
+main form footer a{
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+main footer a :hover{
+    color: #c90808;
+}
